@@ -1,5 +1,15 @@
 # Data structure 1. linked list
 
+This is a new collection about knowledge of data structures and related interview questions.
+
+[Data structure 1. linked list](https://medium.com/@124ykl/data-structure-1-linked-list-d67a40e1a909)
+
+<a href="https://www.buymeacoffee.com/kailiyang1X" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 145px !important;" ></a>
+or give me a star 🌟
+
+-----
+
+
 In computer science, a linked list is a linear collection of data elements whose linear order is not given by their physical address in memory. It is a data structure consisting of a set of nodes, each element pointing to the next element, which together represent a linear sequence.
 
 In the simplest linked list structure, each node is composed of data and a pointer (a pointer to the next node). This data structure allows for efficient insertion or deletion of elements from any position in the sequence during iteration.
