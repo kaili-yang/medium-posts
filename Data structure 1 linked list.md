@@ -146,12 +146,13 @@ Current list, head node: d, tail node: c Overall: d, a, c.
 ```
 ## Common interview questions
 1. Describe the data structure of the linked list?
-2. Does LinkedList in Java use a one-way linked list, a doubly linked list or a circular linked list?
-3. What is the time complexity of inserting, deleting, and obtaining elements in the linked list?
-4. In what scenarios is it more appropriate to use a linked list?
+3. Does LinkedList in Java use a one-way linked list, a doubly linked list or a circular linked list?
+4. What is the time complexity of inserting, deleting, and obtaining elements in the linked list?
+5. In what scenarios is it more appropriate to use a linked list?
 
 Think about them and try to figure out by yourself.
 Check your answers.
-2. Java uses a circular doubly linked list data structure
+1. A linked list is a linear collection of data elements whose linear order is not given by their physical address in memory. It is a data structure consisting of a set of nodes, each element pointing to the next element, which together represent a linear sequence.
+2. Java uses a circular doubly linked list data structure.
 3. For insertion and deletion, if there is a preceding node, the time complexity is 0(1), and if there is no case, it is o(n). To obtain elements needs to be traversed, so the time complexity is 0(n).
 4. Judging from the advantages and disadvantages of the linked list, the point of the linked list is that insertion and deletion are fast, so the linked list is used for more addition and deletion operations, and the array is used for more queries.
